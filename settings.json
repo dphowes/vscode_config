@@ -1,0 +1,73 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.formatOnPaste": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "html.format.wrapLinelength": 80,
+    "window.zoomLevel": 0,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pep8Enabled": true,
+    "python.linting.enabled": true,
+    "extensions.autoUpdate": true,
+    "jshint.options": {
+        "esversion": 6
+    },
+    "editor.renderWhitespace": "boundary",
+    "python.autoComplete.addBrackets": true,
+    "editor.detectIndentation": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.tabSize": 2,
+    "tslint.alwaysShowRuleFailuresAsWarnings": true,
+    "tslint.alwaysShowStatus": true,
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrapColumn": 120,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Soft",
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "yaml.schemas": {
+      "file:///Users/dph/.vscode/extensions/atlassian.atlascode-2.6.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "atlascode.jira.jqlList": [
+      {
+        "enabled": true,
+        "filterId": "10201",
+        "id": "15c2fd96-4b1c-4a53-ad83-82e2b33d879f",
+        "monitor": true,
+        "name": "WYV - Current Sprint (Not Done)",
+        "query": "project = WYV AND sprint in openSprints() AND status != done",
+        "siteId": "287cce21-d170-4800-b756-e53553588728"
+      },
+      {
+        "enabled": true,
+        "filterId": "10200",
+        "id": "84c961e7-41f4-4559-9424-36db4b0978ec",
+        "monitor": true,
+        "name": "WYV - Issues to Test",
+        "query": "project = WYV AND status = \"QA Testing\"",
+        "siteId": "287cce21-d170-4800-b756-e53553588728"
+      },
+      {
+        "enabled": true,
+        "id": "bc34fe6d-a136-46fe-88bc-915584026875",
+        "monitor": true,
+        "name": "My wyvern Issues",
+        "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+        "siteId": "287cce21-d170-4800-b756-e53553588728"
+      }
+    ],
+    "atlascode.jira.explorer.enabled": true,
+    "atlascode.jira.explorer.nestSubtasks": false,
+    "atlascode.jira.lastCreateSiteAndProject": {
+      "siteId": "287cce21-d170-4800-b756-e53553588728",
+      "projectKey": "WYV"
+    },
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.gist": "11231d7eaeaa680e567d59e4c66022d9",
+  }
